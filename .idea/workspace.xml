@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c5a0e3a-bfbf-492d-8963-45bb99986277" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/cscloud-zzp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-provider/src/main/resources/canal.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-provider/src/main/resources/instance.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-api/cscloud-api.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-api/src/main/java/com/zzp/api/entity/Depart.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-api/src/main/java/com/zzp/api/entity/Depart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-api/target/classes/com/zzp/api/entity/Depart.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-api/target/classes/com/zzp/api/entity/Depart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider/cscloud-provider.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cscloud-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/resources/mybatis/mapper/DeptMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/resources/mybatis/mapper/DeptMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/META-INF/cscloud-provider.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/application.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +50,9 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="MyBatisLogPluginparameters" value="Parameters:" />
+    <property name="MyBatisLogPluginpreparing" value="Preparing:" />
+    <property name="MyBatisLogPluginrunning" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelOrder2" value="2" />
@@ -50,14 +63,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/cscloud-api/src" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cscloud-provider/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zzp.provider.controller" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projectWorkspace\cscloud-zzp\cscloud-provider\src\main\resources" />
       <recent name="G:\workspace\springcloud\cscloud\cscloud-api\src\main\java\com.zzp.api\entity" />
     </key>
   </component>
@@ -78,7 +95,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CanalController">
+    <configuration name="CanalController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zzp.provider.controller.CanalController" />
+      <module name="cscloud-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzp.provider.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProviderApp_8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cscloud-provider" />
       <extension name="coverage">
@@ -97,6 +127,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CanalController" />
         <item itemvalue="Spring Boot.ProviderApp_8001" />
       </list>
     </recent_temporary>
@@ -109,7 +140,7 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3f2f389b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3b0f59df" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -135,6 +166,8 @@
       <workItem from="1593167969006" duration="759000" />
       <workItem from="1593844930105" duration="1500000" />
       <workItem from="1593846545147" duration="237000" />
+      <workItem from="1594900348682" duration="5109000" />
+      <workItem from="1594966134539" duration="598000" />
     </task>
     <servers />
   </component>

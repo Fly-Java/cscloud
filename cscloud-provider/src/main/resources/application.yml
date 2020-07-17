@@ -13,9 +13,9 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: org.gjt.mm.mysql.Driver              # mysql驱动包
-    url: jdbc:mysql://localhost:3306/mall_dev              # 数据库名称
-    username: root
-    password: nuannuan
+    url: jdbc:mysql://192.168.145.10:3306/node01              # 数据库名称
+    username: mysql
+    password: 123456
     dbcp2:
       min-idle: 5                                           # 数据库连接池的最小维持连接数
       initial-size: 5                                       # 初始化连接数
