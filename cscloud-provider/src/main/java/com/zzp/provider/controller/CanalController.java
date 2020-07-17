@@ -22,7 +22,7 @@ public class CanalController {
             connector.connect();
             connector.subscribe(".*\\..*");
             connector.rollback();
-            int totalEmptyCount = 12000;
+            int totalEmptyCount = 120;
             while (emptyCount < totalEmptyCount) {
                 Message message = connector.getWithoutAck(batchSize); // 获取指定数量的数据
                 long batchId = message.getId();

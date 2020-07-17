@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c5a0e3a-bfbf-492d-8963-45bb99986277" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/cscloud-zzp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cscloud-provider/src/main/resources/canal.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cscloud-provider/src/main/resources/instance.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-api/cscloud-api.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-api/src/main/java/com/zzp/api/entity/Depart.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-api/src/main/java/com/zzp/api/entity/Depart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-api/target/classes/com/zzp/api/entity/Depart.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-api/target/classes/com/zzp/api/entity/Depart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/cscloud-provider.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/META-INF/cscloud-provider.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/controller/CanalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/controller/CanalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/controller/CanalController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/controller/CanalController.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -167,7 +156,7 @@
       <workItem from="1593844930105" duration="1500000" />
       <workItem from="1593846545147" duration="237000" />
       <workItem from="1594900348682" duration="5109000" />
-      <workItem from="1594966134539" duration="598000" />
+      <workItem from="1594966134539" duration="5275000" />
     </task>
     <servers />
   </component>
