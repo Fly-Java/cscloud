@@ -8,6 +8,7 @@
     <modules>
         <module>cscloud-api</module>
         <module>cscloud-provider</module>
+        <module>cscloud-consumer</module>
     </modules>
     <packaging>pom</packaging>
 
