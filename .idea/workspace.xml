@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c5a0e3a-bfbf-492d-8963-45bb99986277" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/controller/CanalController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/controller/CanalController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-api/src/main/java/com/zzp/api/entity/Depart.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-api/src/main/java/com/zzp/api/entity/Depart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-api/target/classes/com/zzp/api/entity/Depart.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-api/target/classes/com/zzp/api/entity/Depart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-consumer/src/main/java/com/zzp/consumer/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-consumer/src/main/java/com/zzp/consumer/controller/ConsumerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-consumer/target/classes/com/zzp/consumer/controller/ConsumerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-consumer/target/classes/com/zzp/consumer/controller/ConsumerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/controller/DeptController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/resources/mybatis/mapper/DeptMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/resources/mybatis/mapper/DeptMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/mybatis/mapper/DeptMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/mybatis/mapper/DeptMapper.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +61,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -114,6 +115,9 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zzp.consumer.ConsumerApp_80" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndTriggerFile" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,10 +138,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.CanalController" />
+      <item itemvalue="Spring Boot.ConsumerApp_80" />
+      <item itemvalue="Spring Boot.ProviderApp_8001" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ConsumerApp_80" />
         <item itemvalue="Spring Boot.ProviderApp_8001" />
+        <item itemvalue="Spring Boot.ConsumerApp_80" />
         <item itemvalue="Application.CanalController" />
       </list>
     </recent_temporary>
@@ -178,7 +187,7 @@
       <workItem from="1593846545147" duration="237000" />
       <workItem from="1594900348682" duration="5109000" />
       <workItem from="1594966134539" duration="5275000" />
-      <workItem from="1595077598262" duration="1742000" />
+      <workItem from="1595077598262" duration="3050000" />
     </task>
     <servers />
   </component>
@@ -202,9 +211,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/controller/DeptController.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/cscloud-consumer/src/main/java/com/zzp/consumer/controller/ConsumerController.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

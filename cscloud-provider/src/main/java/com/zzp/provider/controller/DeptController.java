@@ -4,11 +4,12 @@ import com.zzp.api.entity.Depart;
 import com.zzp.provider.service.DeptService;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 import java.util.List;
 
-@Component
+@RestController
 @RequestMapping("/dept")
 public class DeptController {
 

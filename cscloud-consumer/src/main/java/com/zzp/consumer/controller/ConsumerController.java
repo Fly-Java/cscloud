@@ -2,6 +2,7 @@ package com.zzp.consumer.controller;
 
 import com.zzp.api.entity.Depart;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
@@ -18,7 +19,9 @@ public class ConsumerController {
 
     @RequestMapping(value = "consumer/dept")
     public List<Depart> getDepartList(){
-        return (List<Depart>) restTemplate.getForEntity("REST_URL_PREFIX" + "/dept/list", Depart.class);
+        List<Depart> forEntity = restTemplate.getForObject(REST_URL_PREFIX+ "/dept/list", List.class);
+
+        return forEntity;
     }
 
 
