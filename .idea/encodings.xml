@@ -3,7 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cscloud-api" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cscloud-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cscloud-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cscloud-provider" charset="UTF-8" />
   </component>
 </project>
