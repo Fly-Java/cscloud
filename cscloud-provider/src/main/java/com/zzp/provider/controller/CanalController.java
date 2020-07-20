@@ -30,7 +30,7 @@ public class CanalController {
                 if (batchId == -1 || size == 0) {
                     emptyCount++;
                     System.out.println("empty count : " + emptyCount);
-                    try {
+                        try {
                         Thread.sleep(1000);
                     } catch (InterruptedException e) {
                     }
