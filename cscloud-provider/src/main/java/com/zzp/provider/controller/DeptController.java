@@ -1,8 +1,12 @@
 package com.zzp.provider.controller;
 
 import com.zzp.api.entity.Depart;
+import com.zzp.provider.aop.MethodLog;
 import com.zzp.provider.service.DeptService;
+import com.zzp.provider.utils.UUIDUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -13,12 +17,18 @@ import java.util.List;
 @RequestMapping("/dept")
 public class DeptController {
 
-    @Resource
+    @Autowired
     private DeptService deptService;
 
-    private Depart findById(Long id){
+    @RequestMapping("/findDepart")
+    private Depart findById(String id){
         Depart depart = deptService.findById(id);
         return depart;
+    }
+
+    @PostMapping("/updateDeptById")
+    private Depart updateDeptById(){
+        return deptService.updateDeptById("1", "123", "456", UUIDUtils.getUUID());
     }
 
     @RequestMapping("/list")

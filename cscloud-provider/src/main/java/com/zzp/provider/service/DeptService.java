@@ -1,13 +1,16 @@
 package com.zzp.provider.service;
 
 import com.zzp.api.entity.Depart;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
 public interface DeptService {
 
-    public Depart findById(Long id);
+    Depart findById(String id);
 
-    public List<Depart> findAll();
+    Depart updateDeptById(String id, String deptNo, String deptName, String tranId);
+
+    List<Depart> findAll();
 
 }

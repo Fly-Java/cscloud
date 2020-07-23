@@ -4,9 +4,20 @@
 
 <mapper namespace="com.zzp.provider.mapper.DeptMapper">
 
-    <select id="findById" resultType="com.zzp.api.entity.Depart" parameterType="Long">
-		select deptno,dname,db_source from dept where deptno=#{deptno};
+    <select id="findById" resultType="com.zzp.api.entity.Depart">
+		select id,
+		dept_no deptNo,
+		dept_name deptName from dept where id=#{id};
 	</select>
+	<update id="updateDeptById">
+		update dept
+		set dept_no = #{deptNo},
+		dept_name = #{deptName},
+		tran_id = #{tranId}
+		<where>
+			id = #{id}
+		</where>
+	</update>
     <select id="findAll" resultType="com.zzp.api.entity.Depart">
 		select id,
 		dept_no deptNo,
