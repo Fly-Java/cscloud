@@ -6,10 +6,7 @@ import com.zzp.provider.service.DeptService;
 import com.zzp.provider.utils.UUIDUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -40,8 +37,9 @@ public class DeptController {
     }
 
     @PostMapping("/updateDeptById")
-    private Depart updateDeptById(){
-        return deptService.updateDeptById("1", "123", "456", UUIDUtils.getUUID());
+    private Depart updateDeptById(Depart depart){
+        depart.setTranId(UUIDUtils.getUUID());
+        return deptService.updateDeptById(depart);
     }
 
     @RequestMapping("/list")

@@ -9,7 +9,7 @@ public interface DeptService {
 
     Depart findById(String id);
 
-    Depart updateDeptById(String id, String deptNo, String deptName, String tranId);
+    Depart updateDeptById(Depart depart);
 
     List<Depart> findAll();
 

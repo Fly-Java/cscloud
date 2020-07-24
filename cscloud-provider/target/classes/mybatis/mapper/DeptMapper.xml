@@ -11,11 +11,21 @@
 	</select>
 	<update id="updateDeptById">
 		update dept
-		set dept_no = #{deptNo},
-		dept_name = #{deptName},
-		tran_id = #{tranId}
+		<set>
+			<if test="depart.deptNo != null and depart.deptNo != ''">
+				dept_no = #{depart.deptNo},
+			</if>
+			<if test="depart.deptName != null and depart.deptName != ''">
+				dept_name = #{depart.deptName},
+			</if>
+			<if test="depart.tranId != null and depart.tranId != ''">
+				tran_id = #{tranId},
+			</if>
+		</set>
 		<where>
-			id = #{id}
+			<if test="depart.id != null and depart.id != ''">
+				id = #{id}
+			</if>
 		</where>
 	</update>
     <select id="findAll" resultType="com.zzp.api.entity.Depart">

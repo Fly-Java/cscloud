@@ -47,7 +47,6 @@ public class Consumer {
             // 会把不同的消息分别放置到不同的队列中
             try {
                 for (Message msg : msgs) {
-
                     //消费者获取消息 这里只输出 不做后面逻辑处理
                     String body = new String(msg.getBody(), "utf-8");
                     log.info("Consumer-获取消息-主题topic为={}, 消费消息为={}", msg.getTopic(), body);

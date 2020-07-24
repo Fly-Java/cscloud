@@ -11,7 +11,7 @@ public interface DeptMapper {
 
     Depart findById(@Param("id") String id);
 
-    Integer updateDeptById(@Param("id") String id, @Param("deptNo") String deptNo, @Param("deptName") String deptName, @Param("tranId") String tranId);
+    Integer updateDeptById(@Param("depart") Depart depart);
 
     List<Depart> findAll();
 

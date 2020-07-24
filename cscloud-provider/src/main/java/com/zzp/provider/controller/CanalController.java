@@ -5,8 +5,11 @@ import com.alibaba.otter.canal.client.CanalConnector;
 import com.alibaba.otter.canal.client.CanalConnectors;
 import com.alibaba.otter.canal.protocol.CanalEntry.*;
 import com.alibaba.otter.canal.protocol.Message;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.net.InetSocketAddress;
+import java.util.ArrayList;
 import java.util.List;
 
 public class CanalController {
@@ -70,23 +73,32 @@ public class CanalController {
                     entry.getHeader().getSchemaName(), entry.getHeader().getTableName(),
                     eventType));
 
-            for (RowData rowData : rowChage.getRowDatasList()) {
-                if (eventType == EventType.DELETE) {
-                    printColumn(rowData.getBeforeColumnsList());
-                } else if (eventType == EventType.INSERT) {
-                    printColumn(rowData.getAfterColumnsList());
-                } else {
-                    System.out.println("-------&gt; before");
-                    printColumn(rowData.getBeforeColumnsList());
-                    System.out.println("-------&gt; after");
-                    printColumn(rowData.getAfterColumnsList());
+            try {
+                for (RowData rowData : rowChage.getRowDatasList()) {
+                    if (eventType == EventType.DELETE) {
+                        printColumn(rowData.getBeforeColumnsList());
+                    } else if (eventType == EventType.INSERT) {
+                        printColumn(rowData.getAfterColumnsList());
+                    } else {
+                        System.out.println("-------&gt; before");
+                        printColumn(rowData.getBeforeColumnsList());
+                        System.out.println("-------&gt; after");
+                        printColumn(rowData.getAfterColumnsList());
+                    }
                 }
+            } catch (JSONException e) {
+                e.printStackTrace();
             }
         }
     }
 
-    private static void printColumn(List<Column> columns) {
+    private static void printColumn(List<Column> columns) throws JSONException {
+        List<JSONObject> objectList = new ArrayList<>();
+
         for (Column column : columns) {
+            JSONObject object = new JSONObject();
+            object.put(column.getName(), column.getValue());
+            objectList.add(object);
             System.out.println(column.getName() + " : " + column.getValue() + "    update=" + column.getUpdated());
         }
     }
