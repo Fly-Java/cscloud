@@ -3,22 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="5c5a0e3a-bfbf-492d-8963-45bb99986277" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-api/src/main/java/com/zzp/api/entity/Depart.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-api/src/main/java/com/zzp/api/entity/Depart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-api/target/classes/com/zzp/api/entity/Depart.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-api/target/classes/com/zzp/api/entity/Depart.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/aop/MethodLogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/aop/MethodLogAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/controller/CanalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/controller/CanalController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/controller/DeptController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/mapper/DeptMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/mapper/DeptMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/rocketMQ/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/rocketMQ/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/service/DeptService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/service/DeptService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/service/impl/DeptServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/service/impl/DeptServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/resources/mybatis/mapper/DeptMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/resources/mybatis/mapper/DeptMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/aop/MethodLogAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/aop/MethodLogAspect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/controller/CanalController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/controller/CanalController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/controller/DeptController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/controller/DeptController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/mapper/DeptMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/mapper/DeptMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/rocketMQ/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/rocketMQ/Consumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/service/DeptService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/service/DeptService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/service/impl/DeptServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/service/impl/DeptServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/mybatis/mapper/DeptMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/mybatis/mapper/DeptMapper.xml" afterDir="false" />
     </list>
@@ -31,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -202,7 +192,7 @@
       <workItem from="1594966134539" duration="5275000" />
       <workItem from="1595207184196" duration="601000" />
       <workItem from="1595077598262" duration="3050000" />
-      <workItem from="1595485201670" duration="24488000" />
+      <workItem from="1595485201670" duration="30000000" />
     </task>
     <servers />
   </component>
@@ -236,11 +226,6 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/aop/MethodLogAspect.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/controller/DeptController.java</url>
           <line>22</line>
           <option name="timeStamp" value="11" />
@@ -256,37 +241,39 @@
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/aop/MethodLogAspect.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/aop/MethodLogAspect.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/controller/DeptController.java</url>
           <line>40</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/aop/MethodLogAspect.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="26" />
+          <url>file://$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/service/impl/DeptServiceImpl.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/service/impl/DeptServiceImpl.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/aop/MethodLogAspect.java</url>
-          <line>32</line>
-          <properties class="com.zzp.provider.aop.MethodLogAspect">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="10" />
+          <line>54</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/rocketMQ/Consumer.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/rocketMQ/Consumer.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/aop/MethodLogAspect.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/aop/MethodLogAspect.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

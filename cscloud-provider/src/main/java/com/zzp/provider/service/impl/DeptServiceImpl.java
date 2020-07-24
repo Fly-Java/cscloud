@@ -32,18 +32,16 @@ public class DeptServiceImpl implements DeptService {
     }
 
     @Override
-    @MethodLog()
-    // 项目执行一次
+    @MethodLog
     public Depart updateDeptById(Depart depart) {
-        log.info("变更前");
         Integer integer = deptMapper.updateDeptById(depart);
-        log.info("变更后");
         return deptMapper.findById(depart.getId());
     }
 
 
     @Override
     @PostConstruct
+    // 项目执行一次
     public List<Depart> findAll() {
         return deptMapper.findAll();
     }

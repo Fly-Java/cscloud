@@ -19,12 +19,12 @@
 				dept_name = #{depart.deptName},
 			</if>
 			<if test="depart.tranId != null and depart.tranId != ''">
-				tran_id = #{tranId},
+				tran_id = #{depart.tranId},
 			</if>
 		</set>
 		<where>
 			<if test="depart.id != null and depart.id != ''">
-				id = #{id}
+				id = #{depart.id}
 			</if>
 		</where>
 	</update>
