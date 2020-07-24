@@ -69,6 +69,11 @@
                 <artifactId>log4j</artifactId>
                 <version>${log4j.version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.apache.rocketmq</groupId>
+                <artifactId>rocketmq-client</artifactId>
+                <version>4.5.2</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>

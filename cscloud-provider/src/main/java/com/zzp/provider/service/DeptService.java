@@ -13,4 +13,6 @@ public interface DeptService {
 
     List<Depart> findAll();
 
+    Depart hello(Depart shopArea,String tranId);
+
 }

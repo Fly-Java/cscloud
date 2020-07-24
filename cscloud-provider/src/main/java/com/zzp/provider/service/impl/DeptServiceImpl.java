@@ -9,6 +9,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.PostConstruct;
 import javax.annotation.Resource;
 import java.util.List;
 
@@ -26,7 +27,14 @@ public class DeptServiceImpl implements DeptService {
     }
 
     @Override
-    @MethodLog
+    public Depart hello(Depart depart,String tranId) {
+        return deptMapper.findById(depart.getId());
+    }
+
+    @Override
+    @MethodLog()
+    @PostConstruct
+    // 项目执行一次
     public Depart updateDeptById(String id, String deptNo, String deptName, String tranId) {
         log.info("变更前");
         Integer integer = deptMapper.updateDeptById(id, deptNo, deptName, tranId);

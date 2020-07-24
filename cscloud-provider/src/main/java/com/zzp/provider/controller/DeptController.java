@@ -6,6 +6,7 @@ import com.zzp.provider.service.DeptService;
 import com.zzp.provider.utils.UUIDUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -23,6 +24,18 @@ public class DeptController {
     @RequestMapping("/findDepart")
     private Depart findById(String id){
         Depart depart = deptService.findById(id);
+        return depart;
+    }
+
+    @GetMapping("/hello")
+    public Depart hello(){
+        Depart depart = new Depart();
+        depart.setId("1");
+        depart.setDeptName("技术部");
+        depart.setDeptNo("101");
+        depart = deptService.hello(depart,"1");
+        depart.setId("10");
+        depart = deptService.hello(depart,"2");
         return depart;
     }
 

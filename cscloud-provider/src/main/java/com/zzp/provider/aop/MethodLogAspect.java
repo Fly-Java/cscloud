@@ -11,6 +11,13 @@ import org.aspectj.lang.annotation.Pointcut;
 import org.aspectj.lang.reflect.MethodSignature;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.web.context.request.RequestContextHolder;
+import org.springframework.web.context.request.ServletRequestAttributes;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+import java.util.Enumeration;
+import java.util.Objects;
 
 @Aspect
 @Component
@@ -20,24 +27,37 @@ public class MethodLogAspect {
     @Autowired
     private DeptService deptService;
 
-    //定义切点
-    @Pointcut("@annotation(com.zzp.provider.aop.MethodLog)")
-    public void doAspect() {
-    }
+//    //定义切点
+//    @Pointcut("@annotation(com.zzp.provider.aop.MethodLog)")
+//    public void doAspect() {
+//    }
 
-    @Around("doAspect()")
-    public Object doAround(ProceedingJoinPoint pjd) {
+    @Around("@annotation(methodLog)")
+    public Object doAround(ProceedingJoinPoint pjd, MethodLog methodLog) {
         Object result = null;
+
         try {
             Class clazz = ((MethodSignature) pjd.getSignature()).getReturnType();
+
+            // 获取request对象
+            HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.getRequestAttributes()).getRequest();
+            // 从request对象中获取参数
+            StringBuffer sb = new StringBuffer();
+            Enumeration enu = request.getParameterNames();
+            while (enu.hasMoreElements()) {
+                String paraName = (String) enu.nextElement();
+                sb.append(paraName + ": " + request.getParameter(paraName) + ",");
+            }
             if (clazz.equals(Depart.class)) {
                Object[] args = pjd.getArgs();
-//                for (Object obj : args) {
-//                    JSONObject object = (JSONObject) JSONObject.toJSON(obj);
-//                    log.info("环绕通知");
-//                    result = deptService.findById(object.get("id").toString());
-//                }
-//                JSONObject object = (JSONObject) JSONObject.toJSON(args);
+                for (Object obj : args) {
+                    if (Objects.nonNull(obj)){
+                        JSONObject object = (JSONObject) JSONObject.toJSON(obj);
+                        log.info("环绕通知");
+                        result = deptService.findById(object.get("id").toString());
+                    }
+                }
+                JSONObject object = (JSONObject) JSONObject.toJSON(args);
             }
         } catch (Throwable e) {
             System.out.println("异常通知");
