@@ -100,7 +100,6 @@ public class BlogValueServiceImpl extends ServiceImpl<BlogValueMapper, BlogValue
             List<Depart> beforeDepart = JSONArray.parseArray(beforeValue, Depart.class);
             List<Depart> afterDepart = JSONArray.parseArray(afterValue, Depart.class);
             List<CommonLog> logList = compareFields(beforeDepart.get(0), afterDepart.get(0));
-
             for (CommonLog commonLog : logList) {
                 commonLog.setTablesName(tableName);
                 commonLogService.insertCommonLog(commonLog);

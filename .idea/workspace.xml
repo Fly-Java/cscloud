@@ -2,31 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c5a0e3a-bfbf-492d-8963-45bb99986277" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/controller/DeptController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/mapper/BlogValueMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/mapper/BlogValueMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/mapper/CommonLogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/mapper/CommonLogMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/mapper/DeptMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/mapper/DeptMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/service/DeptService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/service/DeptService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/service/impl/BlogValueServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/service/impl/BlogValueServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/service/impl/CommonLogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/service/impl/CommonLogServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/service/impl/DeptServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/service/impl/DeptServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/resources/mybatis/mapper/DeptMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/resources/mybatis/mapper/DeptMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/controller/DeptController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/controller/DeptController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/mapper/BlogValueMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/mapper/BlogValueMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/mapper/CommonLogMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/mapper/CommonLogMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/mapper/DeptMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/mapper/DeptMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/service/DeptService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/service/DeptService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/service/impl/BlogValueServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/service/impl/BlogValueServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/service/impl/CommonLogServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/service/impl/CommonLogServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/service/impl/DeptServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/service/impl/DeptServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/mybatis/mapper/DeptMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/mybatis/mapper/DeptMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -224,7 +202,7 @@
       <workItem from="1595207184196" duration="601000" />
       <workItem from="1595077598262" duration="3050000" />
       <workItem from="1595485201670" duration="36852000" />
-      <workItem from="1595811640759" duration="22545000" />
+      <workItem from="1595811640759" duration="22684000" />
     </task>
     <servers />
   </component>
