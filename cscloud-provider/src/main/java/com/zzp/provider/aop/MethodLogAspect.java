@@ -5,6 +5,7 @@ import com.zzp.provider.config.JmsConfig;
 import com.zzp.provider.rocketMQ.Provider;
 import com.zzp.provider.service.DeptService;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.rocketmq.client.producer.SendCallback;
 import org.apache.rocketmq.client.producer.SendResult;
 import org.apache.rocketmq.common.message.Message;
 import org.aspectj.lang.JoinPoint;
@@ -47,14 +48,27 @@ public class MethodLogAspect {
             result = ((MethodSignature) pjd.getSignature()).getMethod();
             Map<String, Object> paramMap = new HashMap<>();
 
+            String tranId = "";
+            for (Object object :paramValues) {
+                tranId = ((Depart) object).getTranId();
+            }
 
-//            String tranId = ((Depart) paramValues).getTranId();
             for (int i = 0; i < paramNames.length; i++) {
                 paramMap.put(paramNames[i], paramValues[i]);
             }
-            Message message = new Message(JmsConfig.TOPIC, "testtag", paramMap.get("depart").toString().getBytes());
+            Message message = new Message(JmsConfig.TOPIC, "testtag", tranId.getBytes());
             //发送
-            SendResult sendResult = provider.getProducer().send(message);
+            provider.getProducer().send(message, new SendCallback() {
+                @Override
+                public void onSuccess(SendResult sendResult) {
+                    log.info("sendResult:" + sendResult);
+                }
+
+                @Override
+                public void onException(Throwable throwable) {
+                    throwable.printStackTrace();
+                }
+            });
         } catch (Throwable e) {
             System.out.println("异常通知");
         }

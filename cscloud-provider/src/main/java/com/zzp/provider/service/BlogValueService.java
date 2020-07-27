@@ -18,4 +18,8 @@ public interface BlogValueService {
 
     void printEntry(List<CanalEntry.Entry> entrys);
 
+    BlogValue selectBlogValueByTandId(String tranId);
+
+    void initBlogValue(String tranId);
+
 }

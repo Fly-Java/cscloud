@@ -1,6 +1,7 @@
 package com.zzp.provider.rocketMQ;
 
 import com.zzp.provider.config.JmsConfig;
+import com.zzp.provider.service.BlogValueService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.rocketmq.client.consumer.DefaultMQPushConsumer;
 import org.apache.rocketmq.client.consumer.listener.ConsumeConcurrentlyStatus;
@@ -8,6 +9,7 @@ import org.apache.rocketmq.client.consumer.listener.MessageListenerConcurrently;
 import org.apache.rocketmq.client.exception.MQClientException;
 import org.apache.rocketmq.common.consumer.ConsumeFromWhere;
 import org.apache.rocketmq.common.message.Message;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.io.UnsupportedEncodingException;
@@ -21,6 +23,9 @@ import java.io.UnsupportedEncodingException;
 @Slf4j
 @Component
 public class Consumer {
+
+    @Autowired
+    private BlogValueService blogValueService;
 
     /**
      * 消费者实体对象
@@ -48,12 +53,13 @@ public class Consumer {
             try {
                 for (Message msg : msgs) {
                     //消费者获取消息 这里只输出 不做后面逻辑处理
+                    String tranId = new String(msg.getBody(), "utf-8");
+                    log.info("Consumer-获取消息-主题topic为={}, 消费消息为={}", msg.getTopic(), tranId);
 
-                    String body = new String(msg.getBody(), "utf-8");
-                    log.info("Consumer-获取消息-主题topic为={}, 消费消息为={}", msg.getTopic(), body);
+                    blogValueService.initBlogValue(tranId);
                 }
-            } catch (UnsupportedEncodingException e) {
-                e.printStackTrace();
+            } catch (Exception e) {
+                log.info("异常信息", e);
                 return ConsumeConcurrentlyStatus.RECONSUME_LATER;
             }
             return ConsumeConcurrentlyStatus.CONSUME_SUCCESS;

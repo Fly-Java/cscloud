@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zzp.provider.mapper.CommonLogMapper">
+    <resultMap id="BaseResultMap" type="com.zzp.api.entity.CommonLog">
+        <id column="id" property="id" jdbcType="OTHER"/>
+        <result column="tables_column" property="tablesColumn" jdbcType="OTHER"/>
+        <result column="tables_name" property="tablesName" jdbcType="OTHER"/>
+        <result column="before_value" property="beforeValue" jdbcType="OTHER"/>
+        <result column="after_value" property="afterValue" jdbcType="OTHER"/>
+    </resultMap>
+
+    <insert id="insertCommonLog" parameterType="com.zzp.api.entity.CommonLog">
+        insert into common_log
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="log.id != null">
+                id,
+            </if>
+            <if test="log.tablesColumn != null">
+                tables_column,
+            </if>
+            <if test="log.tablesName != null">
+                tables_name,
+            </if>
+            <if test="log.beforeValue != null">
+                before_value,
+            </if>
+            <if test="log.afterValue != null">
+                after_value,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="log.id != null">
+                #{log.id},
+            </if>
+            <if test="log.tablesColumn != null">
+                #{log.tablesColumn,jdbcType=OTHER},
+            </if>
+            <if test="log.tablesName != null">
+                #{log.tablesName,jdbcType=OTHER},
+            </if>
+            <if test="log.beforeValue != null">
+                #{log.beforeValue,jdbcType=OTHER},
+            </if>
+            <if test="log.afterValue != null">
+                #{log.afterValue,jdbcType=OTHER},
+            </if>
+        </trim>
+    </insert>
+</mapper>

@@ -15,4 +15,6 @@ public interface BlogValueMapper {
 
     Integer insertSelective(@Param("blogValue") BlogValue blogValue);
 
+    BlogValue selectBlogValueByTandId(@Param("tranId") String tranId);
+
 }

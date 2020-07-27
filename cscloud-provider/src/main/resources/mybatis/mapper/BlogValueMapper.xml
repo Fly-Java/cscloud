@@ -41,5 +41,18 @@
         </trim>
     </insert>
 
+    <select id="selectBlogValueByTandId" resultType="com.zzp.api.entity.BlogValue">
+        SELECT bv.id,
+        bv.before_value beforeValue,
+        bv.after_value afterValue,
+        bv.tables_name tablesName
+        from blog_value bv
+        <where>
+            <if test="tranId != null and tranId != ''">
+                bv.after_value LIKE CONCAT ('%', #{tranId}, '%');
+            </if>
+        </where>
+    </select>
+
 
 </mapper>
