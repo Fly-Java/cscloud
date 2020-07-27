@@ -1,5 +1,6 @@
 package com.zzp.provider.service.impl;
 
+import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import com.zzp.api.entity.Depart;
 import com.zzp.provider.aop.MethodLog;
 import com.zzp.provider.mapper.DeptMapper;
@@ -15,9 +16,9 @@ import java.util.List;
 
 @Service
 @Slf4j
-public class DeptServiceImpl implements DeptService {
+public class DeptServiceImpl extends ServiceImpl<DeptMapper, Depart> implements DeptService {
 
-    @Resource
+    @Autowired
     private DeptMapper deptMapper;
 
     @Override
@@ -39,10 +40,10 @@ public class DeptServiceImpl implements DeptService {
     }
 
 
-    @Override
-    @PostConstruct
-    // 项目执行一次
-    public List<Depart> findAll() {
-        return deptMapper.findAll();
-    }
+//    @Override
+//    @PostConstruct
+//    // 项目执行一次
+//    public List<Depart> findAll() {
+//        return deptMapper.findAll();
+//    }
 }

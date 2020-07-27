@@ -1,5 +1,6 @@
 package com.zzp.provider.mapper;
 
+import com.baomidou.mybatisplus.mapper.BaseMapper;
 import com.zzp.api.entity.BlogValue;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
@@ -11,7 +12,7 @@ import org.apache.ibatis.annotations.Param;
  * @Author Administrator
  **/
 @Mapper
-public interface BlogValueMapper {
+public interface BlogValueMapper extends BaseMapper<BlogValue> {
 
     Integer insertSelective(@Param("blogValue") BlogValue blogValue);
 

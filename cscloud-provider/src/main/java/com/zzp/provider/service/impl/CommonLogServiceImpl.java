@@ -1,5 +1,6 @@
 package com.zzp.provider.service.impl;
 
+import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import com.zzp.api.entity.CommonLog;
 import com.zzp.provider.mapper.CommonLogMapper;
 import com.zzp.provider.service.CommonLogService;
@@ -15,7 +16,7 @@ import javax.annotation.Resource;
  * @Author Administrator
  **/
 @Service
-public class CommonLogServiceImpl implements CommonLogService {
+public class CommonLogServiceImpl extends ServiceImpl<CommonLogMapper, CommonLog> implements CommonLogService {
 
     @Resource
     private CommonLogMapper commonLogMapper;

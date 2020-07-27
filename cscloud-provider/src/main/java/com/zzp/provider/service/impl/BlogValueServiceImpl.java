@@ -6,6 +6,7 @@ import com.alibaba.otter.canal.protocol.CanalEntry;
 import com.alibaba.otter.canal.protocol.CanalEntry.EntryType;
 import com.alibaba.otter.canal.protocol.CanalEntry.EventType;
 import com.alibaba.otter.canal.protocol.CanalEntry.RowChange;
+import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import com.zzp.api.entity.BlogValue;
 import com.zzp.api.entity.CommonLog;
 import com.zzp.api.entity.Depart;
@@ -14,7 +15,6 @@ import com.zzp.provider.service.BlogValueService;
 import com.zzp.provider.service.CommonLogService;
 import com.zzp.provider.utils.SnowflakeIdWorker;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -31,7 +31,7 @@ import java.util.Objects;
  **/
 @Service
 @Slf4j
-public class BlogValueServiceImpl implements BlogValueService {
+public class BlogValueServiceImpl extends ServiceImpl<BlogValueMapper, BlogValue> implements BlogValueService {
 
     @Resource
     private BlogValueMapper blogValueMapper;
@@ -78,7 +78,7 @@ public class BlogValueServiceImpl implements BlogValueService {
                     blogValue.setTablesName(entry.getHeader().getTableName());
                     blogValue.setBeforeValue(JSONObject.toJSONString(beforeObject));
                     blogValue.setAfterValue(JSONObject.toJSONString(afterObject));
-                    this.insertSelective(blogValue);
+                    baseMapper.insert(blogValue);
                 }
             }
 

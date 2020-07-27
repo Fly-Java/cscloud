@@ -11,7 +11,6 @@ public interface DeptService {
 
     Depart updateDeptById(Depart depart);
 
-    List<Depart> findAll();
 
     Depart hello(Depart shopArea,String tranId);
 

@@ -2,19 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c5a0e3a-bfbf-492d-8963-45bb99986277" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/aop/MethodLogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/aop/MethodLogAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/controller/DeptController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/mapper/BlogValueMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/mapper/BlogValueMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/rocketMQ/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/rocketMQ/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/service/BlogValueService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/service/BlogValueService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/mapper/CommonLogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/mapper/CommonLogMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/mapper/DeptMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/mapper/DeptMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/service/DeptService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/service/DeptService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/service/impl/BlogValueServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/service/impl/BlogValueServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/resources/mybatis/mapper/BlogValueMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/resources/mybatis/mapper/BlogValueMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/aop/MethodLogAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/aop/MethodLogAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/service/impl/CommonLogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/service/impl/CommonLogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/service/impl/DeptServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/service/impl/DeptServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/resources/mybatis/mapper/DeptMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/resources/mybatis/mapper/DeptMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/controller/DeptController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/controller/DeptController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/mapper/BlogValueMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/mapper/BlogValueMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/rocketMQ/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/rocketMQ/Consumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/service/BlogValueService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/service/BlogValueService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/mapper/CommonLogMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/mapper/CommonLogMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/mapper/DeptMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/mapper/DeptMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/service/DeptService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/service/DeptService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/service/impl/BlogValueServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/service/impl/BlogValueServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/mybatis/mapper/BlogValueMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/mybatis/mapper/BlogValueMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/service/impl/CommonLogServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/service/impl/CommonLogServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/service/impl/DeptServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/service/impl/DeptServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/mybatis/mapper/DeptMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/mybatis/mapper/DeptMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +74,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/cscloud-api/src" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cscloud-provider/src/main/resources/mybatis/mapper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -75,11 +87,11 @@
       <recent name="com.zzp.provider.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projectWorkspace\cscloud-zzp" />
       <recent name="D:\projectWorkspace\cscloud-zzp\cscloud-provider\src\main\resources\mybatis\mapper" />
       <recent name="D:\projectWorkspace\cscloud-zzp\cscloud-provider\src\main\java\com\zzp\provider" />
       <recent name="G:\IdeaSpace\cscloud\cscloud-consumer\src\main\resources" />
       <recent name="G:\IdeaSpace\cscloud\cscloud-consumer\src\main\java\com\zzp\consumer\controller" />
-      <recent name="G:\IdeaSpace\cscloud\cscloud-consumer\src\main\java\com\zzp\consumer\config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -212,7 +224,7 @@
       <workItem from="1595207184196" duration="601000" />
       <workItem from="1595077598262" duration="3050000" />
       <workItem from="1595485201670" duration="36852000" />
-      <workItem from="1595811640759" duration="15145000" />
+      <workItem from="1595811640759" duration="22545000" />
     </task>
     <servers />
   </component>
@@ -242,11 +254,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/controller/DeptController.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/controller/DeptController.java</url>
           <line>22</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
@@ -259,16 +266,6 @@
           <url>file://$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/controller/DeptController.java</url>
           <line>28</line>
           <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/rocketMQ/Consumer.java</url>
-          <line>56</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/service/impl/BlogValueServiceImpl.java</url>
-          <line>94</line>
-          <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/service/impl/BlogValueServiceImpl.java</url>
@@ -284,11 +281,6 @@
           <url>file://$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/controller/TestController.java</url>
           <line>35</line>
           <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/service/impl/BlogValueServiceImpl.java</url>
-          <line>103</line>
-          <option name="timeStamp" value="51" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

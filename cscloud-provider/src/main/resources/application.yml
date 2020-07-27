@@ -3,9 +3,29 @@ server:
 
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml        # mybatis配置文件所在路径
-  type-aliases-package: com.zzp.zpi.entity    # 所有Entity别名类所在包
+  type-aliases-package: com.zzp.api.entity    # 所有Entity别名类所在包
   mapper-locations:
     - classpath:mybatis/mapper/**/*.xml                       # mapper映射文件
+
+mybatis-plus:
+  mapper-locations: classpath:mybatis/mapper/**/*.xml
+  typeAliasesPackage: com.zzp.api.entity
+  global-config:
+    db-config:
+      id-type: auto
+      field-strategy: not_empty
+        #驼峰下划线转换
+      column-underline: true
+        #逻辑删除配置
+      logic-delete-value: 0
+      logic-not-delete-value: 1
+      db-type: mysql
+    refresh: false
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+
+
 
 spring:
   application:

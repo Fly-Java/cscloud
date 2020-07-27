@@ -42,10 +42,10 @@ public class DeptController {
         return deptService.updateDeptById(depart);
     }
 
-    @RequestMapping("/list")
-    private List<Depart> findAllList(){
-        List<Depart> list = deptService.findAll();
-        return list;
-    }
+//    @RequestMapping("/list")
+//    private List<Depart> findAllList(){
+//        List<Depart> list = deptService.findAll();
+//        return list;
+//    }
 
 }
