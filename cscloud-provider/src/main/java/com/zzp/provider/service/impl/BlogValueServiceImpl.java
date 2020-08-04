@@ -81,7 +81,6 @@ public class BlogValueServiceImpl extends ServiceImpl<BlogValueMapper, BlogValue
                     baseMapper.insert(blogValue);
                 }
             }
-
         }
     }
 

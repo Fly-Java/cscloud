@@ -9,6 +9,7 @@
         <module>cscloud-api</module>
         <module>cscloud-provider</module>
         <module>cscloud-consumer</module>
+        <module>cscloud-eureka</module>
     </modules>
     <packaging>pom</packaging>
 

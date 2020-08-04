@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cscloud-api" />
+        <module name="cscloud-eureka" />
         <module name="cscloud-consumer" />
         <module name="cscloud-provider" />
       </profile>

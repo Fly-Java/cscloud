@@ -1,5 +1,6 @@
 package com.zzp.provider.rocketMQ;
 
+import com.alibaba.fastjson.JSONObject;
 import com.zzp.provider.config.JmsConfig;
 import com.zzp.provider.service.BlogValueService;
 import lombok.extern.slf4j.Slf4j;
@@ -13,6 +14,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.io.UnsupportedEncodingException;
+import java.util.ArrayList;
 
 /**
  * @ClassName Consumer
@@ -67,6 +69,12 @@ public class Consumer {
 
         consumer.start();
         System.out.println("消费者 启动成功=======");
+    }
+
+
+    public static void main(String[] args) {
+        String string = JSONObject.toJSONString(new ArrayList<>());
+        log.info("string;" + string);
     }
 
 }
