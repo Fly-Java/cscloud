@@ -4,18 +4,20 @@
     <list default="true" id="5c5a0e3a-bfbf-492d-8963-45bb99986277" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cscloud-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-api/src/main/java/com/zzp/api/entity/TestBean.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cscloud-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-consumer/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-consumer/target/classes/com/zzp/consumer/ConsumerApp_80.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-consumer/target/classes/com/zzp/consumer/config/ConfigBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-consumer/target/classes/com/zzp/consumer/controller/ConsumerController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cscloud-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/rocketMQ/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/rocketMQ/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/task/CanalMQTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/task/CanalMQTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/ProviderApp_8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/ProviderApp_8001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/dao/ESTestDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/service/ESTestService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/service/impl/ESTestServiceImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/resources/canal.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/resources/instance.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/META-INF/cscloud-provider.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/canal.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/rocketMQ/Consumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/task/CanalMQTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/instance.properties" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -63,7 +65,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/cscloud-api/src" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../imservice/imservice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -228,7 +230,9 @@
       <workItem from="1595811640759" duration="28663000" />
       <workItem from="1596506624367" duration="3949000" />
       <workItem from="1598874415228" duration="10239000" />
-      <workItem from="1599189929372" duration="3245000" />
+      <workItem from="1599189929372" duration="10301000" />
+      <workItem from="1599220451937" duration="1386000" />
+      <workItem from="1599221939436" duration="1612000" />
     </task>
     <servers />
   </component>
@@ -295,6 +299,11 @@
           <url>file://$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/rocketMQ/Consumer.java</url>
           <line>76</line>
           <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/controller/HighLevelRestController.java</url>
+          <line>154</line>
+          <option name="timeStamp" value="54" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -8,4 +8,9 @@ public class ProviderApp_8001 {
     public static void main(String[] args) {
         SpringApplication.run(ProviderApp_8001.class, args);
     }
+
+//    public ProviderApp_8001(){
+//        System.setProperty("es.set.netty.runtime.available.processors","false");
+//    }
+
 }
