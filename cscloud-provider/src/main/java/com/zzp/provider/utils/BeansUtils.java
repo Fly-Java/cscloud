@@ -53,6 +53,7 @@ public class BeansUtils {
                     // 判断源对象的属性名、属性类型是否和目标对象的属性名、属性类型一致
                     if (sField.getName().equals(tField.getName()) && sField.getGenericType().equals(tField.getGenericType())) {
                         try {
+
                             // 获取源对象的属性名，将属性名首字母大写，拼接如：getUsername、getId的字符串
                             String sName = sField.getName();
                             char[] sChars = sName.toCharArray();
