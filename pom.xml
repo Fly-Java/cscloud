@@ -10,6 +10,7 @@
         <module>cscloud-provider</module>
         <module>cscloud-consumer</module>
         <module>cscloud-eureka</module>
+        <module>cscloud-nacos</module>
     </modules>
     <packaging>pom</packaging>
 

@@ -2,22 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c5a0e3a-bfbf-492d-8963-45bb99986277" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-api/src/main/java/com/zzp/api/entity/TestBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-consumer/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-consumer/target/classes/com/zzp/consumer/ConsumerApp_80.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-consumer/target/classes/com/zzp/consumer/config/ConfigBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-consumer/target/classes/com/zzp/consumer/controller/ConsumerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/ProviderApp_8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/ProviderApp_8001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/dao/ESTestDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/service/ESTestService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/service/impl/ESTestServiceImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/META-INF/cscloud-provider.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/controller/CanalController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/com/zzp/provider/controller/CanalController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -39,7 +33,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/Apache/maven/apache-maven-3.3.3" />
+        <option name="localRepository" value="D:\Program Files\JavaTools\apache-maven-cloud-x\repo" />
+        <option name="mavenHome" value="D:/Program Files/JavaTools/apache-maven-cloud-x" />
+        <option name="userSettingsFile" value="D:\Program Files\JavaTools\apache-maven-cloud-x\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -69,7 +65,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -196,7 +192,7 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@503d6171" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@32894f99" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -233,6 +229,9 @@
       <workItem from="1599189929372" duration="10301000" />
       <workItem from="1599220451937" duration="1386000" />
       <workItem from="1599221939436" duration="1612000" />
+      <workItem from="1599660992372" duration="273000" />
+      <workItem from="1599661412054" duration="1116000" />
+      <workItem from="1599707330025" duration="7741000" />
     </task>
     <servers />
   </component>

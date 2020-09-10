@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cscloud-api" />
         <module name="cscloud-eureka" />
+        <module name="cscloud-nacos" />
         <module name="cscloud-consumer" />
         <module name="cscloud-provider" />
       </profile>
