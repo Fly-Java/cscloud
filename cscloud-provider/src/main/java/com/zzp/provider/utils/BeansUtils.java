@@ -33,6 +33,7 @@ public class BeansUtils {
         // 循环取到单个源对象
         for (T t : source) {
             // 获取源对象的类的详情信息
+
             Class<?> sClass = t.getClass();
             // 获取源对象的所有属性
             Field[] sFields = sClass.getDeclaredFields();
