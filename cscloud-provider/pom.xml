@@ -12,6 +12,11 @@
     <groupId>com.zzp.springCloud</groupId>
     <artifactId>cscloud-provider</artifactId>
 
+    <properties>
+        <elasticsearch.version>6.7.0</elasticsearch.version>
+    </properties>
+
+
     <dependencies>
         <dependency><!-- 自己定义的api -->
             <groupId>com.zzp.springCloud</groupId>
@@ -97,14 +102,14 @@
         <dependency>
             <groupId>org.elasticsearch.client</groupId>
             <artifactId>elasticsearch-rest-client</artifactId>
-            <version>6.7.0</version>
+            <version>${elasticsearch.version}</version>
         </dependency>
 
         <!-- Java High Level REST Client -->
         <dependency>
             <groupId>org.elasticsearch.client</groupId>
             <artifactId>elasticsearch-rest-high-level-client</artifactId>
-            <version>6.7.0</version>
+            <version>${elasticsearch.version}</version>
         </dependency>
 
         <dependency>

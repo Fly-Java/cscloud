@@ -3,21 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5c5a0e3a-bfbf-492d-8963-45bb99986277" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-api/src/main/java/com/zzp/api/entity/TestBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-consumer/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-consumer/target/classes/com/zzp/consumer/ConsumerApp_80.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-consumer/target/classes/com/zzp/consumer/config/ConfigBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-consumer/target/classes/com/zzp/consumer/controller/ConsumerController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cscloud-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/ProviderApp_8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/ProviderApp_8001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/dao/ESTestDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/service/ESTestService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/java/com/zzp/provider/service/impl/ESTestServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/META-INF/cscloud-provider.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/target/classes/application.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -196,7 +182,7 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@503d6171" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@5f3c21e3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -232,7 +218,8 @@
       <workItem from="1598874415228" duration="10239000" />
       <workItem from="1599189929372" duration="10301000" />
       <workItem from="1599220451937" duration="1386000" />
-      <workItem from="1599221939436" duration="1612000" />
+      <workItem from="1599221939436" duration="2725000" />
+      <workItem from="1599469983091" duration="3324000" />
     </task>
     <servers />
   </component>
