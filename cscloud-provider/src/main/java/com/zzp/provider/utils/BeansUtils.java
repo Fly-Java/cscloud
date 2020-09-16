@@ -22,6 +22,7 @@ public class BeansUtils {
      * @return 被赋值后的目标对象集合
      * @throws RuntimeException 自定义异常，通过反射创建对象或调用方法时抛出的异常
      */
+
     public static <T, E> List<E> copyProperties(List<T> source, Class<E> tClass) {
         // 判断传入源数据是否为空，如果空，则抛自定义异常
         if (null == source) {
