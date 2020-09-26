@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5c5a0e3a-bfbf-492d-8963-45bb99986277" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-nacos_provider/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-nacos_provider/src/main/resources/bootstrap.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -25,7 +26,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/Apache/maven/apache-maven-3.3.3" />
+        <option name="localRepository" value="D:\Program Files\JavaTools\apache-maven-cloud-x\repo" />
+        <option name="mavenHome" value="D:/Program Files/JavaTools/apache-maven-cloud-x" />
+        <option name="userSettingsFile" value="D:\Program Files\JavaTools\apache-maven-cloud-x\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -51,10 +54,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/cscloud-api/src" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cscloud-nacos" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -64,11 +68,11 @@
       <recent name="com.zzp.provider.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjectSpace\cscloud\cscloud-nacos_consumer\src\main\resources" />
+      <recent name="D:\IdeaProjectSpace\cscloud\cscloud-provider\src\main\resources" />
       <recent name="D:\projectWorkspace\cscloud-zzp" />
       <recent name="D:\projectWorkspace\cscloud-zzp\cscloud-provider\src\main\resources\mybatis\mapper" />
       <recent name="D:\projectWorkspace\cscloud-zzp\cscloud-provider\src\main\java\com\zzp\provider" />
-      <recent name="G:\IdeaSpace\cscloud\cscloud-consumer\src\main\resources" />
-      <recent name="G:\IdeaSpace\cscloud\cscloud-consumer\src\main\java\com\zzp\consumer\controller" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -88,46 +92,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaServer7001_App">
-    <configuration name="CanalController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zzp.provider.controller.CanalController" />
-      <module name="cscloud-provider" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zzp.provider.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zzp.provider.rocketMQ.Consumer" />
-      <module name="cscloud-provider" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zzp.provider.rocketMQ.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zzp.provider.controller.TestController" />
-      <module name="cscloud-provider" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zzp.provider.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.ProviderApp_8001">
     <configuration name="EurekaServer7001_App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cscloud-eureka" />
       <extension name="coverage">
@@ -137,6 +102,45 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zzp.eureka.EurekaServer7001_App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cscloud-nacos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzp.nacos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zzp.nacos.NacosApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cscloud-nacos_consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzp.nacos_consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zzp.nacos_consumer.NacosConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cscloud-nacos_provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzp.nacos_provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zzp.nacos_provider.NacosProviderApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -158,31 +162,31 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CanalController" />
-      <item itemvalue="Application.TestController" />
-      <item itemvalue="Application.Consumer" />
       <item itemvalue="Spring Boot.ProviderApp_8001" />
       <item itemvalue="Spring Boot.EurekaServer7001_App" />
+      <item itemvalue="Spring Boot.NacosApplication" />
+      <item itemvalue="Spring Boot.NacosProviderApplication" />
+      <item itemvalue="Spring Boot.NacosConsumerApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ProviderApp_8001" />
+        <item itemvalue="Spring Boot.NacosConsumerApplication" />
+        <item itemvalue="Spring Boot.NacosProviderApplication" />
+        <item itemvalue="Spring Boot.NacosApplication" />
         <item itemvalue="Spring Boot.EurekaServer7001_App" />
-        <item itemvalue="Application.Consumer" />
-        <item itemvalue="Application.TestController" />
-        <item itemvalue="Application.CanalController" />
       </list>
     </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
-        <option name="contentProportion" value="0.15057915" />
+        <option name="contentProportion" value="0.17406143" />
         <treeState>
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@5f3c21e3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@78f3c8ea" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -218,8 +222,22 @@
       <workItem from="1598874415228" duration="10239000" />
       <workItem from="1599189929372" duration="10301000" />
       <workItem from="1599220451937" duration="1386000" />
-      <workItem from="1599221939436" duration="2725000" />
-      <workItem from="1599469983091" duration="3324000" />
+      <workItem from="1599221939436" duration="1612000" />
+      <workItem from="1599660992372" duration="273000" />
+      <workItem from="1599661412054" duration="1116000" />
+      <workItem from="1599707330025" duration="8548000" />
+      <workItem from="1599752363988" duration="1022000" />
+      <workItem from="1599790712308" duration="218000" />
+      <workItem from="1599790942999" duration="4641000" />
+      <workItem from="1599881199354" duration="7257000" />
+      <workItem from="1599979588831" duration="4474000" />
+      <workItem from="1600477994965" duration="9052000" />
+      <workItem from="1600668890531" duration="907000" />
+      <workItem from="1600697268460" duration="1975000" />
+      <workItem from="1600740025351" duration="9887000" />
+      <workItem from="1600917414031" duration="827000" />
+      <workItem from="1601000829248" duration="1894000" />
+      <workItem from="1601083585903" duration="1328000" />
     </task>
     <servers />
   </component>
